@@ -25,7 +25,7 @@ namespace TSMC_Employee_Query.Properties {
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        [global::System.Configuration.DefaultSettingValueAttribute(".")]
         public string DB_IP {
             get {
                 return ((string)(this["DB_IP"]));
@@ -34,7 +34,7 @@ namespace TSMC_Employee_Query.Properties {
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        [global::System.Configuration.DefaultSettingValueAttribute("sa")]
         public string connUser {
             get {
                 return ((string)(this["connUser"]));
@@ -43,7 +43,7 @@ namespace TSMC_Employee_Query.Properties {
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        [global::System.Configuration.DefaultSettingValueAttribute("1qaz@WSX")]
         public string connPass {
             get {
                 return ((string)(this["connPass"]));
@@ -52,7 +52,7 @@ namespace TSMC_Employee_Query.Properties {
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        [global::System.Configuration.DefaultSettingValueAttribute("ASON")]
         public string DB_Name {
             get {
                 return ((string)(this["DB_Name"]));
